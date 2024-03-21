@@ -1,0 +1,582 @@
+body {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  text-align: center;
+}
+.feature {
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+  text-align: center;
+}
+.letterD {
+  text-align: center;
+}
+.button {
+  background-color: palevioletred;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+.image {
+  display: flex;
+  flex-direction: row;
+}
+.paid {
+  background-color: blue;
+}
+.west {
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+}
+.improve {
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+}
+.apload {
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+}
+.roger {
+  /* transform: rotateX(50deg); */
+}
+.header {
+  align-items: center;
+}
+.online {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 20%; */
+}
+.easy {
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+}
+.numbers {
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+}
+.study {
+  display: flex;
+  flex-direction: column;
+}
+.create {
+  display: flex;
+  flex-direction: row;
+}
+.okay {
+  display: flex;
+  flex-direction: row;
+  gap: 30%;
+}
+.helping {
+  align-items: center;
+}
+.tim {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.language {
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+}
+.bell {
+  display: flex;
+  flex-direction: row;
+}
+.mobile {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+.some {
+  text-align: center;
+}
+.zohir {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+.edwin {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+.jecson {
+  display: flex;
+  flex-direction: row;
+}
+.lastbuttons {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+.lastdiv {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+.online {
+  gap: 10%;
+}
+.footericons {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  color: white;
+  background-color: black;
+  width: 80%;
+}
+.lastimage{
+    width="500px"
+}
+@media screen and (min-width: 280px) and (max-width: 680px) {
+  body {
+    margin: 10px;
+  }
+  .feature {
+    display: flex;
+    flex-wrap: wrap;
+
+    text-align: center;
+  }
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .letterD {
+    text-align: center;
+  }
+  .button {
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+  }
+  .image {
+    display: flex;
+    flex-direction: row;
+  }
+  .paid {
+    background-color: blue;
+  }
+  .west {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+  }
+  .improve {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20%;
+  }
+  .apload {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+  }
+
+  .header {
+    align-items: center;
+  }
+  .online {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20%;
+  }
+  .easy {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20%;
+  }
+  .numbers {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+  }
+  .study {
+    display: flex;
+    flex-direction: column;
+  }
+  .create {
+    display: flex;
+    flex-direction: row;
+  }
+  .okay {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30%;
+  }
+  .helping {
+    align-items: center;
+  }
+  .tim {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .language {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+  }
+  .bell {
+    display: flex;
+    flex-direction: row;
+  }
+  .mobile {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+  }
+  .some {
+    text-align: center;
+  }
+  .zohir {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+  }
+  .edwin {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+  }
+  .jecson {
+    display: flex;
+    flex-direction: row;
+  }
+  .lastbuttons {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+  }
+  .lastdiv {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .online {
+    gap: 10%;
+  }
+  .footericons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+  }
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    background-color: black;
+  }
+  .lastimage{
+    /* width: px; */
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+    body {
+      margin: 10px;
+    }
+    .feature {
+      display: flex;
+      flex-wrap: wrap;
+  
+      text-align: center;
+    }
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .letterD {
+      text-align: center;
+    }
+    .button {
+    }
+    .buttons {
+      display: flex;
+      flex-direction: row;
+      gap: 5%;
+    }
+    .image {
+      display: flex;
+      flex-direction: row;
+    }
+    .paid {
+      background-color: blue;
+    }
+    .west {
+      display: flex;
+      flex-direction: row;
+      gap: 20%;
+    }
+    .improve {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20%;
+    }
+    .apload {
+      display: flex;
+      flex-direction: row;
+      gap: 20%;
+    }
+  
+    .header {
+      align-items: center;
+    }
+    .online {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20%;
+    }
+    .easy {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20%;
+    }
+    .numbers {
+      display: flex;
+      flex-direction: row;
+      gap: 20%;
+    }
+    .study {
+      display: flex;
+      flex-direction: column;
+    }
+    .create {
+      display: flex;
+      flex-direction: row;
+    }
+    .okay {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30%;
+    }
+    .helping {
+      align-items: center;
+    }
+    .tim {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .language {
+      display: flex;
+      flex-direction: row;
+      gap: 20%;
+    }
+    .bell {
+      display: flex;
+      flex-direction: row;
+    }
+    .mobile {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5%;
+    }
+    .some {
+      text-align: center;
+    }
+    .zohir {
+      display: flex;
+      flex-direction: row;
+      gap: 5%;
+    }
+    .edwin {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10%;
+    }
+    .jecson {
+      display: flex;
+      flex-direction: row;
+    }
+    .lastbuttons {
+      display: flex;
+      flex-direction: row;
+      gap: 5%;
+    }
+    .lastdiv {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .online {
+      gap: 10%;
+    }
+    .footericons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5%;
+    }
+    .footer {
+      display: flex;
+      flex-wrap: wrap;
+      color: white;
+      background-color: black;
+    }
+    .lastimage{
+      /* width: px; */
+    }
+  }
+  @media screen and (min-width: 1200px) and (max-width: 1600px) {
+    body {
+      margin: 10px;
+    }
+    .feature {
+      display: flex;
+      flex-wrap: wrap;
+  
+      text-align: center;
+    }
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .letterD {
+      text-align: center;
+    }
+    .button {
+    }
+    .buttons {
+      display: flex;
+      flex-direction: row;
+      gap: 5%;
+    }
+    .image {
+      display: flex;
+      flex-direction: row;
+    }
+    .paid {
+      background-color: blue;
+    }
+    .west {
+      display: flex;
+      flex-direction: row;
+      gap: 20%;
+    }
+    .improve {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20%;
+    }
+    .apload {
+      display: flex;
+      flex-direction: row;
+      gap: 20%;
+    }
+  
+    .header {
+      align-items: center;
+    }
+    .online {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20%;
+    }
+    .easy {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20%;
+    }
+    .numbers {
+      display: flex;
+      flex-direction: row;
+      gap: 20%;
+    }
+    .study {
+      display: flex;
+      flex-direction: column;
+    }
+    .create {
+      display: flex;
+      flex-direction: row;
+    }
+    .okay {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30%;
+    }
+    .helping {
+      align-items: center;
+    }
+    .tim {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .language {
+      display: flex;
+      flex-direction: row;
+      gap: 20%;
+    }
+    .bell {
+      display: flex;
+      flex-direction: row;
+    }
+    .mobile {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5%;
+    }
+    .some {
+      text-align: center;
+    }
+    .zohir {
+      display: flex;
+      flex-direction: row;
+      gap: 5%;
+    }
+    .edwin {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10%;
+    }
+    .jecson {
+      display: flex;
+      flex-direction: row;
+    }
+    .lastbuttons {
+      display: flex;
+      flex-direction: row;
+      gap: 5%;
+    }
+    .lastdiv {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .online {
+      gap: 10%;
+    }
+    .footericons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5%;
+    }
+    .footer {
+      display: flex;
+      flex-wrap: wrap;
+      color: white;
+      background-color: black;
+    }
+  }
+  
+  
